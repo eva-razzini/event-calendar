@@ -51,7 +51,7 @@ function App() {
 
   return (
     <div className="App">
-      <img src="https://www.pixel4k.com/wp-content/uploads/2018/10/churei-tower-mount-fuji-in-japan-4k_1540135350.jpg" style={{width: "100%", position: "absolute", left: "0",height: "100%",top: "0",zIndex: "-1"}}></img>
+      <img src="https://www.pixel4k.com/wp-content/uploads/2018/10/churei-tower-mount-fuji-in-japan-4k_1540135350.jpg" style={{width: "100%", position: "absolute", left: "0",height: "100%",top: "0",zIndex: "-1"}} alt="japon"></img>
       <h1>Calendar</h1>
       <h2>Add New Event</h2>
       <div>
@@ -85,6 +85,7 @@ function App() {
       style={{height: 500, margin: "50px"}}
       />
     </div>
+    
   );
 }
 
